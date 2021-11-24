@@ -1,4 +1,4 @@
-<p align="center"><a href="https://hanungss.ga" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Logo_BPN-KemenATR_%282017%29.png" width="400"></a></p>
+<p align="center"><a href="https://hanungss.ga" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Logo_BPN-KemenATR_%282017%29.png" width="80"></a></p>
 
 ## SISTEM INFORMASI PTSL DESA
 
