@@ -68,7 +68,7 @@
                         pemohon PTSL Desa Keposong Tahun 2021</h2>
                     <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">
-                            <a href="#about"
+                            <a href="#temukan"
                                 class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                                 <span>Lihat Data Anda</span>
                                 <i class="bi bi-arrow-right"></i>
@@ -767,25 +767,32 @@
 
     </main><!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-
-        <!-- <div class="footer-newsletter">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 text-center">
-                        <h4>Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
+    <section id="temukan" class="temukan">
+        <footer id="footer" class="footer">
+            <div class="footer-newsletter">
+                <div data-aos="fade-up">
+                    <header class="section-header">
+                        <p>Temukan data anda</p>
+                    </header>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 text-center">
+                                <p>Silahkan masukkan nama anda sesuai dengan data di KTP</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <form action="" method="post">
+                                    <input type="email" name="email"><input type="submit" value="Temukan">
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </footer>
+    </section>
 
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
