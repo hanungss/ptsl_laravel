@@ -448,7 +448,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -457,10 +457,8 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>William Anderson</h4>
-                                <span>CTO</span>
-                                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt.
-                                    Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                                <h4>Hanung Setyo Sambudi</h4>
+                                <span>Sekretaris</span>
                             </div>
                         </div>
                     </div>
@@ -468,7 +466,7 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -477,10 +475,148 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Accountant</span>
-                                <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut
-                                    aliquid doloremque ut possimus ipsum officia.</p>
+                                <h4>Sri Widodo</h4>
+                                <span>Bendahara</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Suranto</h4>
+                                <span>Satuan Tugas</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Bisono</h4>
+                                <span>Anggota</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Sumarwan</h4>
+                                <span>Anggota</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Edy Santoso</h4>
+                                <span>Anggota</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Daryanto</h4>
+                                <span>Anggota</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Sumarno</h4>
+                                <span>Anggota</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Wignyo Arief Huddien</h4>
+                                <span>Anggota</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/ava1.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Badiono</h4>
+                                <span>Anggota</span>
                             </div>
                         </div>
                     </div>
@@ -491,43 +627,8 @@
 
         </section><!-- End Team Section -->
 
-        <!-- ======= Clients Section ======= -->
-        <section id="clients" class="clients">
-
-            <div class="container" data-aos="fade-up">
-
-                <header class="section-header">
-                    <h2>Our Clients</h2>
-                    <p>Temporibus omnis officia</p>
-                </header>
-
-                <div class="clients-slider swiper">
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-
-        </section><!-- End Clients Section -->
-
         <!-- ======= Recent Blog Posts Section ======= -->
-        <section id="recent-blog-posts" class="recent-blog-posts">
+        <!-- <section id="recent-blog-posts" class="recent-blog-posts">
 
             <div class="container" data-aos="fade-up">
 
@@ -573,7 +674,7 @@
 
             </div>
 
-        </section><!-- End Recent Blog Posts Section -->
+        </section>End Recent Blog Posts Section -->
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
@@ -581,8 +682,8 @@
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <h2>Contact</h2>
-                    <p>Contact Us</p>
+                    <h2>Kontak</h2>
+                    <p>Hubungi Kami</p>
                 </header>
 
                 <div class="row gy-4">
@@ -593,29 +694,29 @@
                             <div class="col-md-6">
                                 <div class="info-box">
                                     <i class="bi bi-geo-alt"></i>
-                                    <h3>Address</h3>
-                                    <p>A108 Adam Street,<br>New York, NY 535022</p>
+                                    <h3>Sekretariat</h3>
+                                    <p>Kantor Desa Keposong,<br>Keposong, Tamansari, Boyolali, 57361</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="info-box">
                                     <i class="bi bi-telephone"></i>
-                                    <h3>Call Us</h3>
-                                    <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                                    <h3>Telp</h3>
+                                    <p><a href="https://wa.me/6285728782762">Whatsapp</a><br>+6285728782762</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="info-box">
                                     <i class="bi bi-envelope"></i>
                                     <h3>Email Us</h3>
-                                    <p>info@example.com<br>contact@example.com</p>
+                                    <p>dskeposong@gmail.com<br>dskeposong@gmail.com</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="info-box">
                                     <i class="bi bi-clock"></i>
-                                    <h3>Open Hours</h3>
-                                    <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                                    <h3>Jam Kerja</h3>
+                                    <p>Setiap Hari<br>13:00 - 21:00 WIB</p>
                                 </div>
                             </div>
                         </div>
@@ -627,22 +728,21 @@
                             <div class="row gy-4">
 
                                 <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Your Name"
+                                    <input type="text" name="name" class="form-control" placeholder="Nama anda"
                                         required>
                                 </div>
 
                                 <div class="col-md-6 ">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email"
+                                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subjek"
                                         required>
                                 </div>
 
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                        required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Tulis Pesan"
                                         required></textarea>
                                 </div>
 
@@ -651,7 +751,7 @@
                                     <div class="error-message"></div>
                                     <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                                    <button type="submit">Send Message</button>
+                                    <button type="submit">Kirim Pesan</button>
                                 </div>
 
                             </div>
@@ -670,7 +770,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
 
-        <div class="footer-newsletter">
+        <!-- <div class="footer-newsletter">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 text-center">
@@ -684,18 +784,19 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-5 col-md-12 footer-info">
                         <a href="index.html" class="logo d-flex align-items-center">
-                            <img src="assets/img/logo.png" alt="">
-                            <span>FlexStart</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kabupaten_Boyolali.png/529px-Kabupaten_Boyolali.png"
+                                alt="">
+                            <span>SIPRONA</span>
                         </a>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
-                            valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                        <p>Aplikasi pembantu dan bentuk transparansi panitia kepada
+                            pemohon PTSL Desa Keposong Tahun 2021.</p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -704,36 +805,14 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                        </ul>
-                    </div>
-
                     <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                        <h4>Contact Us</h4>
+                        <h4>Hubungi kami</h4>
                         <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
+                            Kantor Desa Keposong <br>
+                            Desa Keposong, Kec.Tamansari<br>
+                            Boyolali <br><br>
+                            <strong>Phone:</strong> +6285728782762<br>
+                            <strong>Email:</strong> dskeposong@gmail.com<br>
                         </p>
 
                     </div>
@@ -744,7 +823,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Panitia PTSL Desa Keposong</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
