@@ -12,37 +12,18 @@
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kabupaten_Boyolali.png/529px-Kabupaten_Boyolali.png"" rel="
         icon">
     <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
-    <script type="text/javascript" src="{{ asset('assets/vendor/jquery/jquery-3.2.1.min.js ') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/vendor/jquery/jquery-3.2.1.min.js ') }}">
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
     </script>
+
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css"
-        href="{{ asset('assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css ') }}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css"
-        href="{{ asset('assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css ') }}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/animate/animate.css ') }}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/css-hamburgers/hamburgers.min.css ') }}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/animsition/css/animsition.min.css ') }}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/select2/select2.min.css ') }}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/daterangepicker/daterangepicker.css ') }}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/util.css ') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/main.css ') }}">
-    <!--===============================================================================================-->
+
     <!-- Vendor CSS Files -->
     <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -75,7 +56,7 @@
                     <li><a class="nav-link scrollto" href="#services">Alur PTSL</a></li>
                     <li><a class="nav-link scrollto" href="#team">Panitia</a></li>
                     <li><a href="{{ url('/home/pengumuman') }}">Pengumuman</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
                     <li><a class="getstarted scrollto" data-toggle="modal" href="#exampleModal">Login Panitia</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -871,6 +852,7 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 </body>
+
 <script type="text/javascript">
 window.onclick = function() {
     $('#exampleModal').modal('show');
@@ -891,40 +873,30 @@ window.onclick = function() {
                 </button>
             </div>
             <div class="modal-body">
-                <form class="login100-form validate-form">
-                    <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
-                        <span class="label-input100">Username</span>
-                        <input class="input100" type="text" name="username" placeholder="Enter username">
-                        <span class="focus-input100"></span>
-                    </div>
+                <div class="col-lg-6">
+                    <form action="forms/login.php" method="post" class="php-email-form">
+                        <div class="col-lg-12">
+                            <div class="row gy-4 validate-input m-b-26" data-validate="Username is required">
+                                <input type="email" class="form-control" name="email" placeholder="Email" required>
+                            </div>
 
-                    <div class="wrap-input100 validate-input m-b-18" data-validate="Password is required">
-                        <span class="label-input100">Password</span>
-                        <input class="input100" type="password" name="pass" placeholder="Enter password">
-                        <span class="focus-input100"></span>
-                    </div>
+                            <div class="row gy-4 validate-input m-b-18" data-validate="Password is required">
+                                <input class="form-control" type="password" name="pass" placeholder="Enter password">
+                            </div>
 
-                    <div class="flex-sb-m w-full p-b-30">
-                        <div class="contact100-form-checkbox">
-                            <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-                            <label class="label-checkbox100" for="ckb1">
-                                Ingat saya
-                            </label>
+                            <div class="flex-sb-m w-full p-b-30">
+                                <div>
+                                    <a href="#" class="txt1">
+                                        Lupa Password?
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit">Login</button>
+                            </div>
                         </div>
-
-                        <div>
-                            <a href="#" class="txt1">
-                                Lupa Password?
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="container-login100-form-btn">
-                        <button class="login100-form-btn">
-                            Login
-                        </button>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
