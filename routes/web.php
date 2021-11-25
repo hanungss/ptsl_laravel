@@ -41,4 +41,8 @@ Route::get('/cetakdata', function () {
     return view('cetakdata');
 })->middleware(['auth'])->name('cetakdata');
 
+Route::get('/pengumuman', function () {
+    return view('pengumuman');
+})->middleware(['auth'])->name('pengumuman');
+
 require __DIR__.'/auth.php';

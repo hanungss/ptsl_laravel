@@ -11,7 +11,7 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
-    <script type="text/javascript" src="{{ asset('assets/vendor/jquery/jquery-3.2.1.min.js ') }}">
+    <script type="text/javascript" src="{{ asset('vendor/jquery/jquery-3.2.1.min.js ') }}">
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
@@ -24,12 +24,12 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('vendor/aos/aos.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/bootstrap-icons/bootstrap-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/glightbox/css/glightbox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/remixicon/remixicon.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/swiper/swiper-bundle.min.css') }}">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
@@ -44,13 +44,6 @@
 <body class="font-sans antialiased">
     <div class="min-h-screen bg-gray-100">
         @include('layouts.navigation')
-
-        <!-- Page Heading -->
-        <header class="bg-white shadow">
-            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                {{ $header }}
-            </div>
-        </header>
 
         <!-- Page Content -->
         <main>
@@ -99,13 +92,13 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="{{ asset('assets/vendor/purecounter/purecounter.js ')}}"></script>
-    <script src="{{ asset('assets/vendor/aos/aos.js ')}}"></script>
-    <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js ')}}"></script>
-    <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js ')}}"></script>
-    <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js ')}}"></script>
-    <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js ')}}"></script>
-    <script src="{{ asset('assets/vendor/php-email-form/validate.js ')}}"></script>
+    <script src="{{ asset('vendor/purecounter/purecounter.js ')}}"></script>
+    <script src="{{ asset('vendor/aos/aos.js ')}}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js ')}}"></script>
+    <script src="{{ asset('vendor/glightbox/js/glightbox.min.js ')}}"></script>
+    <script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js ')}}"></script>
+    <script src="{{ asset('vendor/swiper/swiper-bundle.min.js ')}}"></script>
+    <script src="{{ asset('vendor/php-email-form/validate.js ')}}"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
