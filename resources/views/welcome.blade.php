@@ -13,12 +13,36 @@
         icon">
     <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
     <script type="text/javascript" src="{{ asset('assets/vendor/jquery/jquery-3.2.1.min.js ') }}"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
-
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css ') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css ') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/animate/animate.css ') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/css-hamburgers/hamburgers.min.css ') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/animsition/css/animsition.min.css ') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/select2/select2.min.css ') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/daterangepicker/daterangepicker.css ') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/util.css ') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/main.css ') }}">
+    <!--===============================================================================================-->
     <!-- Vendor CSS Files -->
     <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -26,11 +50,13 @@
     <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body>
+
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -50,7 +76,7 @@
                     <li><a class="nav-link scrollto" href="#team">Panitia</a></li>
                     <li><a href="{{ url('/home/pengumuman') }}">Pengumuman</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="{{ url('/home/login') }}">Login Panitia</a></li>
+                    <li><a class="getstarted scrollto" data-toggle="modal" href="#exampleModal">Login Panitia</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -812,19 +838,6 @@
                             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                        <h4>Hubungi kami</h4>
-                        <p>
-                            Kantor Desa Keposong <br>
-                            Desa Keposong, Kec.Tamansari<br>
-                            Boyolali <br><br>
-                            <strong>Phone:</strong> +6285728782762<br>
-                            <strong>Email:</strong> dskeposong@gmail.com<br>
-                        </p>
-
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -847,17 +860,74 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="{{ asset('assets/vendor/purecounter/purecounter.js ')}}"></script>
+    <script src="{{ asset('assets/vendor/aos/aos.js ')}}"></script>
+    <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js ')}}"></script>
+    <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js ')}}"></script>
+    <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js ')}}"></script>
+    <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js ')}}"></script>
+    <script src="{{ asset('assets/vendor/php-email-form/validate.js ')}}"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
 </body>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#exampleModal').modal('show');
+});
+// $(window).on("click", function() {
+//     $('#exampleModal').modal('show');
+// });
+</script>
+<div iframe { display:block; width:100%; }></div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login Panitia</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="login100-form validate-form">
+                    <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                        <span class="label-input100">Username</span>
+                        <input class="input100" type="text" name="username" placeholder="Enter username">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-18" data-validate="Password is required">
+                        <span class="label-input100">Password</span>
+                        <input class="input100" type="password" name="pass" placeholder="Enter password">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="flex-sb-m w-full p-b-30">
+                        <div class="contact100-form-checkbox">
+                            <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                            <label class="label-checkbox100" for="ckb1">
+                                Ingat saya
+                            </label>
+                        </div>
+
+                        <div>
+                            <a href="#" class="txt1">
+                                Lupa Password?
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <button class="login100-form-btn">
+                            Login
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 </html>
