@@ -872,12 +872,12 @@
     <script src="assets/js/main.js"></script>
 </body>
 <script type="text/javascript">
-$(window).load(function() {
+window.onclick = function() {
     $('#exampleModal').modal('show');
-});
-// $(window).on("click", function() {
-//     $('#exampleModal').modal('show');
-// });
+};
+window.onclick = function() {
+    $('#exampleModal').modal('close');
+};
 </script>
 <div iframe { display:block; width:100%; }></div>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
