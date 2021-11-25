@@ -16,3 +16,29 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+Route::get('/lihatdata', function () {
+    return view('lihatdata');
+})->middleware(['auth'])->name('lihatdata');
+
+Route::get('/editdata', function () {
+    return view('editdata');
+})->middleware(['auth'])->name('editdata');
+
+Route::get('/tambahdata', function () {
+    return view('tambahdata');
+})->middleware(['auth'])->name('tambahdata');
+
+Route::get('/hapusdata', function () {
+    return view('hapusdata');
+})->middleware(['auth'])->name('hapusdata');
+
+Route::get('/cetakdata', function () {
+    return view('cetakdata');
+})->middleware(['auth'])->name('cetakdata');
+
+require __DIR__.'/auth.php';

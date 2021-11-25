@@ -50,14 +50,15 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <!-- //<a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a> -->
+                    <li><a class="nav-link scrollto active" href="#hero">Dashboard</a></li>
+                    <!-- //<a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a> -->
                     <li><a class="nav-link scrollto" href="#about">Apa itu PTSL?</a></li>
                     <li><a class="nav-link scrollto" href="#services">Alur PTSL</a></li>
                     <li><a class="nav-link scrollto" href="#team">Panitia</a></li>
-                    <li><a href="{{ url('/home/pengumuman') }}">Pengumuman</a></li>
+                    <li><a href="{{ url('/dashboard/pengumuman') }}">Pengumuman</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
-                    <li><a class="getstarted scrollto" data-toggle="modal" href="#exampleModal">Login Panitia</a></li>
+                    <li><a class="getstarted scrollto" href="{{ url('/login') }}">Login Panitia</a>
+                    </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -299,7 +300,7 @@
                                         Ya memang benar jika program ini gratis karena tidak dipungut pajak. Namun dalam
                                         hal ini biaya untuk persiapan berkas, patok ataupun operasional lainnya belum di
                                         sediakan oleh pemerintah karena itu pemohon dikenakan beban operasional sesuai
-                                        dengan RAB terlampir <a href="{{ url('/home/rab') }}">berikut</a>.
+                                        dengan RAB terlampir <a href="{{ url('/dashboard/rab') }}">berikut</a>.
                                     </div>
                                 </div>
                             </div>
