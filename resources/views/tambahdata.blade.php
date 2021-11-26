@@ -7,6 +7,9 @@
         icon">
 </head>
 <x-app-layout>
+    <x-slot name="header">
+        <h2>Perhatian, masukkan data dengan benar.</h2>
+    </x-slot>
     <x-slot name="slot">
 
     </x-slot>

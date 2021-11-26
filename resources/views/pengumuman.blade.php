@@ -7,6 +7,9 @@
         icon">
 </head>
 <x-app-layout>
+    <x-slot name="header">
+        <h2>Silahkan tambahkan pemberitahuan kepada pemohon.</h2>
+    </x-slot>
     <x-slot name="slot">
 
     </x-slot>

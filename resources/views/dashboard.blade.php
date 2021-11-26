@@ -11,6 +11,9 @@
         icon">
 </head>
 <x-app-layout>
+    <x-slot name="header">
+        <h2>Selamat datang {{ Auth::user()->name }} di halaman admin.</h2>
+    </x-slot>
     <x-slot name="slot">
         <section id="hero" class="hero d-flex align-items-center">
             <div class="container">

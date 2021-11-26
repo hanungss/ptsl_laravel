@@ -36,6 +36,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <!-- <link rel="stylesheet" href="{{ asset('css/codebase.min.css') }}"> -->
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -45,6 +46,12 @@
     <div class="min-h-screen bg-gray-100">
         @include('layouts.navigation')
 
+        <!-- Page Heading -->
+        <header class="bg-white shadow">
+            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                {{ $header }}
+            </div>
+        </header>
         <!-- Page Content -->
         <main>
             {{ $slot }}
@@ -99,6 +106,12 @@
     <script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js ')}}"></script>
     <script src="{{ asset('vendor/swiper/swiper-bundle.min.js ')}}"></script>
     <script src="{{ asset('vendor/php-email-form/validate.js ')}}"></script>
+    <!-- Page JS Plugins -->
+    <script src="{{ asset('js/plugins/datatables/jquery.dataTables.min.js ')}}"></script>
+    <script src="{{ asset('js/js/plugins/datatables/dataTables.bootstrap4.min.js ')}}"></script>
+
+    <!-- Page JS Code -->
+    <script src="{{ asset('js/js/pages/be_tables_datatables.js ')}}"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>

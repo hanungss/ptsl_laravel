@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Yajra\Datatables\Datatables;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +22,11 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-Route::get('/lihatdata', function () {
-    return view('lihatdata');
-})->middleware(['auth'])->name('lihatdata');
+// Route::get('/lihatdata', function () {
+//     return view('lihatdata');
+// })->middleware(['auth'])->name('lihatdata');
+
+Route::get('/lihatdata','App\Http\Controllers\Controller@lihatdata')->middleware(['auth'])->name('lihatdata');;
 
 Route::get('/editdata', function () {
     return view('editdata');
