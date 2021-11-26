@@ -74,5 +74,7 @@
             </div>
         </section><!-- End Services Section -->
     </x-slot>
-
+    <x-slot name="footer">
+        <p></p>
+    </x-slot>
 </x-app-layout>
