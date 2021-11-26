@@ -48,4 +48,8 @@ Route::get('/pengumuman', function () {
     return view('pengumuman');
 })->middleware(['auth'])->name('pengumuman');
 
+// Route::post('/validasi_form', [FormController::class, 'validasi_form'])->name('form.validation');
+
+Route::post('/validasi_form','App\Http\Controllers\FormController@validasi_form')->name('form.validation');
+
 require __DIR__.'/auth.php';
