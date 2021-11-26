@@ -22,15 +22,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-// Route::get('/lihatdata', function () {
-//     return view('lihatdata');
-// })->middleware(['auth'])->name('lihatdata');
-
 Route::get('/lihatdata','App\Http\Controllers\Controller@lihatdata')->middleware(['auth'])->name('lihatdata');;
-
-Route::get('/editdata', function () {
-    return view('editdata');
-})->middleware(['auth'])->name('editdata');
 
 Route::get('/tambahdata', function () {
     return view('tambahdata');
@@ -48,8 +40,12 @@ Route::get('/pengumuman', function () {
     return view('pengumuman');
 })->middleware(['auth'])->name('pengumuman');
 
-// Route::post('/validasi_form', [FormController::class, 'validasi_form'])->name('form.validation');
-
 Route::post('/validasi_form','App\Http\Controllers\FormController@validasi_form')->name('form.validation');
+
+Route::get('/editdata/{no_reg}', 'App\Http\Controllers\FormController@editdata');
+
+Route::post('/validasi_update', 'App\Http\Controllers\FormController@validasi_update')->name('form.update');
+
+Route::get('/hapus/{no_reg}', 'App\Http\Controllers\FormController@hapus');
 
 require __DIR__.'/auth.php';

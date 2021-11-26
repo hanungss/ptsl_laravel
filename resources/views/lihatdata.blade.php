@@ -41,9 +41,9 @@
                                         <td>{{$p->status}}</td>
                                         <td>{{$p->keterangan}}</td>
                                         <td>
-                                            <a href="home/detail/{{ $p->no_reg}}">Detail</a>
-                                            <a href="home/edit/{{ $p->no_reg}}">Edit</a>
-                                            <a href="home/hapus/{{ $p->no_reg}}">Hapus</a>
+                                            <a href="detail/{{ $p->no_reg}}">Detail</a>
+                                            <a href="editdata/{{ $p->no_reg}}">Edit</a>
+                                            <a href="hapus/{{ $p->no_reg}}">Hapus</a>
                                         </td>
                                     </tr>
                                     @endforeach
