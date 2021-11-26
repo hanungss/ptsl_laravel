@@ -42,10 +42,14 @@ Route::get('/pengumuman', function () {
 
 Route::post('/validasi_form','App\Http\Controllers\FormController@validasi_form')->name('form.validation');
 
-Route::get('/editdata/{no_reg}', 'App\Http\Controllers\FormController@editdata');
+Route::get('/editdata/{no_reg}', 'App\Http\Controllers\FormController@editdata')->middleware(['auth'])->name('editdata');
+
+Route::get('/detail/{no_reg}', 'App\Http\Controllers\FormController@detail')->middleware(['auth'])->name('detail');
 
 Route::post('/validasi_update', 'App\Http\Controllers\FormController@validasi_update')->name('form.update');
 
 Route::get('/hapus/{no_reg}', 'App\Http\Controllers\FormController@hapus');
+
+Route::get('/cetak/{no_reg}', 'App\Http\Controllers\FormController@cetak')->middleware(['auth'])->name('cetak');
 
 require __DIR__.'/auth.php';

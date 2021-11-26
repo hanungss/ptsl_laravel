@@ -37,6 +37,18 @@ class FormController extends Controller
         return view('editdata', ['ptsl' => $ptsl]);
     }
 
+    public function detail($no_reg)
+    {
+        $ptsl = DB::table('ptsl')->where('no_reg', $no_reg)->get();
+        return view('detail', ['ptsl' => $ptsl]);
+    }
+
+    public function cetak($no_reg)
+    {
+        $ptsl = DB::table('ptsl')->where('no_reg', $no_reg)->get();
+        return view('cetak', ['ptsl' => $ptsl]);
+    }
+
     public function update(Request $request)
     {
         DB::table('ptsl')->where('no_reg', $request->no_reg)->update([
