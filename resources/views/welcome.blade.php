@@ -23,6 +23,9 @@
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/dataTables.jqueryui.min.css" />
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/dataTables.jqueryui.min.js"></script>
 
     <!-- Vendor CSS Files -->
     <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
@@ -695,78 +698,38 @@
                     <p>Hubungi Kami</p>
                 </header>
 
-                <div class="row gy-4">
-
-                    <div class="col-lg-6">
-
-                        <div class="row gy-4">
-                            <div class="col-md-6">
-                                <div class="info-box">
-                                    <i class="bi bi-geo-alt"></i>
-                                    <h3>Sekretariat</h3>
-                                    <p>Kantor Desa Keposong,<br>Keposong, Tamansari, Boyolali, 57361</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="info-box">
-                                    <i class="bi bi-telephone"></i>
-                                    <h3>Telp</h3>
-                                    <p><a href="https://wa.me/6285728782762">Whatsapp</a><br>+6285728782762</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="info-box">
-                                    <i class="bi bi-envelope"></i>
-                                    <h3>Email Us</h3>
-                                    <p>dskeposong@gmail.com<br>dskeposong@gmail.com</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="info-box">
-                                    <i class="bi bi-clock"></i>
-                                    <h3>Jam Kerja</h3>
-                                    <p>Setiap Hari<br>13:00 - 21:00 WIB</p>
-                                </div>
+                <div class="row ">
+                    <div class="row gy-6">
+                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                            <div class="info-box">
+                                <i class="bi bi-geo-alt"></i>
+                                <h3>Sekretariat</h3>
+                                <p>Kantor Desa Keposong,<br>Keposong, Tamansari, Boyolali, 57361</p>
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="col-lg-6">
-                        <form action="forms/contact.php" method="post" class="php-email-form">
-                            <div class="row gy-4">
-
-                                <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Nama anda"
-                                        required>
-                                </div>
-
-                                <div class="col-md-6 ">
-                                    <input type="email" class="form-control" name="email" placeholder="Email" required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <input type="text" class="form-control" name="subject" placeholder="Subjek"
-                                        required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Tulis Pesan"
-                                        required></textarea>
-                                </div>
-
-                                <div class="col-md-12 text-center">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                                    <button type="submit">Kirim Pesan</button>
-                                </div>
-
+                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                            <div class="info-box">
+                                <i class="bi bi-telephone"></i>
+                                <h3>Telp</h3>
+                                <p><a href="https://wa.me/6285728782762">Whatsapp</a><br>+6285728782762</p>
                             </div>
-                        </form>
-
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                            <div class="info-box">
+                                <i class="bi bi-envelope"></i>
+                                <h3>Email Us</h3>
+                                <p>dskeposong@gmail.com<br>dskeposong@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                            <div class="info-box">
+                                <i class="bi bi-clock"></i>
+                                <h3>Jam Kerja</h3>
+                                <p>Setiap Hari<br>13:00 - 21:00 WIB</p>
+                            </div>
+                        </div>
                     </div>
+
 
                 </div>
 
@@ -788,10 +751,30 @@
                             <div class="col-lg-12 text-center">
                                 <p>Silahkan masukkan nama anda sesuai dengan data di KTP</p>
                             </div>
-                            <div class="col-lg-6">
-                                <form action="" method="post">
-                                    <input type="email" name="email"><input type="submit" value="Temukan">
-                                </form>
+                            <div class="table-responsive">
+                                <table id="cari" class="display nowrap table-striped table-bordered table"
+                                    style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 25%;">Nama Pemohon</th>
+                                            <th class="d-none d-sm-table-cell">Alamat</th>
+                                            <th class="d-none d-sm-table-cell">No SPPT</th>
+                                            <th class="d-none d-sm-table-cell">Luas dimohon</th>
+                                            <th class="d-none d-sm-table-cell">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach($ptsl as $p)
+                                        <tr>
+                                            <td>{{$p->nama}}</td>
+                                            <td>{{$p->alamat}}</td>
+                                            <td>{{$p->sppt}}</td>
+                                            <td>{{$p->dimohon}}</td>
+                                            <td>{{$p->status}}</td>
+                                        </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -855,13 +838,24 @@
 </body>
 
 <script type="text/javascript">
+$(document).ready(function() {
+    var table = $('#cari').DataTable({
+        responsive: true,
+        pageLength: 3
+    });
+
+    new $.fn.dataTable.FixedHeader(table);
+});
+</script>
+
+<!-- <script type="text/javascript">
 window.onclick = function() {
     $('#exampleModal').modal('show');
 };
 window.onclick = function() {
     $('#exampleModal').modal('close');
 };
-</script>
+</script> -->
 <div iframe { display:block; width:100%; }></div>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
