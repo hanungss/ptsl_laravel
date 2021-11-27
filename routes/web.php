@@ -14,9 +14,11 @@ use Yajra\Datatables\Datatables;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/','App\Http\Controllers\Controller@pencarian');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -42,6 +44,8 @@ Route::get('/pengumuman', function () {
 
 Route::post('/validasi_form','App\Http\Controllers\FormController@validasi_form')->name('form.validation');
 
+Route::post('/validasi_cari','App\Http\Controllers\Controller@validasi_cari')->name('form.cari');
+
 Route::get('/editdata/{no_reg}', 'App\Http\Controllers\FormController@editdata')->middleware(['auth'])->name('editdata');
 
 Route::get('/detail/{no_reg}', 'App\Http\Controllers\FormController@detail')->middleware(['auth'])->name('detail');
@@ -51,5 +55,7 @@ Route::post('/validasi_update', 'App\Http\Controllers\FormController@validasi_up
 Route::get('/hapus/{no_reg}', 'App\Http\Controllers\FormController@hapus');
 
 Route::get('/cetak/{no_reg}', 'App\Http\Controllers\FormController@cetak')->middleware(['auth'])->name('cetak');
+
+Route::get('/pencarian', 'App\Http\Controllers\Controller@validasi_cari')->name('form.cari');
 
 require __DIR__.'/auth.php';
