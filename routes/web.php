@@ -26,6 +26,8 @@ Route::get('/dashboard', function () {
 
 Route::get('/lihatdata','App\Http\Controllers\Controller@lihatdata')->middleware(['auth'])->name('lihatdata');;
 
+Route::get('/lihatpengumuman','App\Http\Controllers\Controller@pengumuman');
+
 Route::get('/tambahdata', function () {
     return view('tambahdata');
 })->middleware(['auth'])->name('tambahdata');
@@ -41,6 +43,10 @@ Route::get('/cetakdata', function () {
 Route::get('/pengumuman', function () {
     return view('pengumuman');
 })->middleware(['auth'])->name('pengumuman');
+
+Route::get('/upload', 'App\Http\Controllers\FormController@upload');
+
+Route::get('/proses_upload', 'App\Http\Controllers\Controller@proses_upload');
 
 Route::post('/validasi_form','App\Http\Controllers\FormController@validasi_form')->name('form.validation');
 

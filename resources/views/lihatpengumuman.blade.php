@@ -8,13 +8,24 @@
     <title>Sistem Informasi PTSL Desa Keposong</title>
 
     <!-- Favicons -->
-    <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
+    <link
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kabupaten_Boyolali.png/529px-Kabupaten_Boyolali.png"" rel="
+        icon">
     <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <script type="text/javascript" src="{{ asset('assets/vendor/jquery/jquery-3.2.1.min.js ') }}">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
 
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/dataTables.jqueryui.min.css" />
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/dataTables.jqueryui.min.js"></script>
 
     <!-- Vendor CSS Files -->
     <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
@@ -23,7 +34,8 @@
     <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 </head>
 
@@ -33,39 +45,23 @@
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <a href="#hero" class="logo d-flex align-items-center">
-                <img src="assets/img/logo.png" alt="">
-                <span>FlexStart</span>
+            <a href="{{ url('../') }}" class="logo d-flex align-items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kabupaten_Boyolali.png/529px-Kabupaten_Boyolali.png"
+                    alt="">
+                <span>SIPRONA</span>
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                    <li><a class="active" href="blog.html">Blog</a></li>
-                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
-                                        class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Drop Down 2</a></li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
-                        </ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Dashboard</a></li>
+                    <!-- //<a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a> -->
+                    <li><a class="nav-link scrollto" href="#about">Apa itu PTSL?</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Alur PTSL</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Panitia</a></li>
+                    <li><a href="{{ url('../pengumuman') }}">Pengumuman</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
+                    <li><a class="getstarted scrollto" href="{{ url('/login') }}">Login Panitia</a>
                     </li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -80,10 +76,10 @@
             <div class="container">
 
                 <ol>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Blog</li>
+                    <li><a href="{{ url('../') }}">Home</a></li>
+                    <li>Pengumuman</li>
                 </ol>
-                <h2>Blog</h2>
+                <h2>Pengumuman</h2>
 
             </div>
         </section><!-- End Breadcrumbs -->
@@ -95,246 +91,60 @@
                 <div class="row">
 
                     <div class="col-lg-8 entries">
-
+                        @foreach($pengumuman as $p)
                         <article class="entry">
-
                             <div class="entry-img">
-                                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                                <img src="assets/img/blog/{{$p->foto}}" alt="" class="img-fluid">
                             </div>
-
                             <h2 class="entry-title">
-                                <a href="blog-single.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui
-                                    quibusdam quia</a>
+                                <a href="blog-single.html">{{$p->judul}}</a>
                             </h2>
-
                             <div class="entry-meta">
                                 <ul>
                                     <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                            href="blog-single.html">John Doe</a></li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
+                                            href="blog-single.html">Admin</a></li>
+                                    <!-- <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
                                             href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a>
                                     </li>
                                     <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="blog-single.html">12 Comments</a></li>
+                                            href="blog-single.html">12 Comments</a></li> -->
                                 </ul>
                             </div>
 
                             <div class="entry-content">
                                 <p>
-                                    Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi
-                                    praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                                    Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta.
-                                    Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda
-                                    perferendis dolore.
+                                    {{$p->isi}}
                                 </p>
                                 <div class="read-more">
-                                    <a href="blog-single.html">Read More</a>
+                                    <a href="#">Read More</a>
                                 </div>
                             </div>
-
                         </article><!-- End blog entry -->
 
-                        <article class="entry">
 
-                            <div class="entry-img">
-                                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-                            </div>
-
-                            <h2 class="entry-title">
-                                <a href="blog-single.html">Nisi magni odit consequatur autem nulla dolorem</a>
-                            </h2>
-
-                            <div class="entry-meta">
-                                <ul>
-                                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                            href="blog-single.html">John Doe</a></li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                            href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a>
-                                    </li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="blog-single.html">12 Comments</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="entry-content">
-                                <p>
-                                    Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum
-                                    voluptatum et. Quo libero rerum voluptatem pariatur nam.
-                                    Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit
-                                    aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui
-                                    aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore
-                                    enim omnis non alias odio quos distinctio.
-                                </p>
-                                <div class="read-more">
-                                    <a href="blog-single.html">Read More</a>
-                                </div>
-                            </div>
-
-                        </article><!-- End blog entry -->
-
-                        <article class="entry">
-
-                            <div class="entry-img">
-                                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-                            </div>
-
-                            <h2 class="entry-title">
-                                <a href="blog-single.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta
-                                    libero sit sint.</a>
-                            </h2>
-
-                            <div class="entry-meta">
-                                <ul>
-                                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                            href="blog-single.html">John Doe</a></li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                            href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a>
-                                    </li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="blog-single.html">12 Comments</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="entry-content">
-                                <p>
-                                    Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem
-                                    dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
-                                    Doloremque est saepe laborum aut. Ipsa cupiditate ex harum at recusandae nesciunt.
-                                    Ut dolores velit.
-                                </p>
-                                <div class="read-more">
-                                    <a href="blog-single.html">Read More</a>
-                                </div>
-                            </div>
-
-                        </article><!-- End blog entry -->
-
-                        <article class="entry">
-
-                            <div class="entry-img">
-                                <img src="assets/img/blog/blog-4.jpg" alt="" class="img-fluid">
-                            </div>
-
-                            <h2 class="entry-title">
-                                <a href="blog-single.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti
-                                    explicabo eius exercitationem.</a>
-                            </h2>
-
-                            <div class="entry-meta">
-                                <ul>
-                                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                            href="blog-single.html">John Doe</a></li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                            href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a>
-                                    </li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="blog-single.html">12 Comments</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="entry-content">
-                                <p>
-                                    Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem
-                                    veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
-                                    Quia sed sunt. Ea asperiores expedita et et delectus voluptates rerum. Id saepe ut
-                                    itaque quod qui voluptas nobis porro rerum. Quam quia nesciunt qui aut est non
-                                    omnis. Inventore occaecati et quaerat magni itaque nam voluptas. Voluptatem ducimus
-                                    sint id earum ut nesciunt sed corrupti nemo.
-                                </p>
-                                <div class="read-more">
-                                    <a href="blog-single.html">Read More</a>
-                                </div>
-                            </div>
-
-                        </article><!-- End blog entry -->
-
-                        <div class="blog-pagination">
+                        <!-- <div class="blog-pagination">
                             <ul class="justify-content-center">
                                 <li><a href="#">1</a></li>
                                 <li class="active"><a href="#">2</a></li>
                                 <li><a href="#">3</a></li>
                             </ul>
-                        </div>
+                        </div> -->
 
                     </div><!-- End blog entries list -->
 
                     <div class="col-lg-4">
 
                         <div class="sidebar">
-
-                            <h3 class="sidebar-title">Search</h3>
-                            <div class="sidebar-item search-form">
-                                <form action="">
-                                    <input type="text">
-                                    <button type="submit"><i class="bi bi-search"></i></button>
-                                </form>
-                            </div><!-- End sidebar search formn-->
-
-                            <h3 class="sidebar-title">Categories</h3>
-                            <div class="sidebar-item categories">
-                                <ul>
-                                    <li><a href="#">General <span>(25)</span></a></li>
-                                    <li><a href="#">Lifestyle <span>(12)</span></a></li>
-                                    <li><a href="#">Travel <span>(5)</span></a></li>
-                                    <li><a href="#">Design <span>(22)</span></a></li>
-                                    <li><a href="#">Creative <span>(8)</span></a></li>
-                                    <li><a href="#">Educaion <span>(14)</span></a></li>
-                                </ul>
-                            </div><!-- End sidebar categories-->
-
                             <h3 class="sidebar-title">Recent Posts</h3>
                             <div class="sidebar-item recent-posts">
                                 <div class="post-item clearfix">
-                                    <img src="assets/img/blog/blog-recent-1.jpg" alt="">
-                                    <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
-                                    <time datetime="2020-01-01">Jan 1, 2020</time>
+                                    <img src="assets/img/blog/{{$p->foto}}" alt="">
+                                    <h4><a href="#">{{$p->judul}}</a></h4>
+                                    <time datetime="2021-11-30">Jan 1, 2020</time>
                                 </div>
-
-                                <div class="post-item clearfix">
-                                    <img src="assets/img/blog/blog-recent-2.jpg" alt="">
-                                    <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
-                                    <time datetime="2020-01-01">Jan 1, 2020</time>
-                                </div>
-
-                                <div class="post-item clearfix">
-                                    <img src="assets/img/blog/blog-recent-3.jpg" alt="">
-                                    <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a>
-                                    </h4>
-                                    <time datetime="2020-01-01">Jan 1, 2020</time>
-                                </div>
-
-                                <div class="post-item clearfix">
-                                    <img src="assets/img/blog/blog-recent-4.jpg" alt="">
-                                    <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
-                                    <time datetime="2020-01-01">Jan 1, 2020</time>
-                                </div>
-
-                                <div class="post-item clearfix">
-                                    <img src="assets/img/blog/blog-recent-5.jpg" alt="">
-                                    <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
-                                    <time datetime="2020-01-01">Jan 1, 2020</time>
-                                </div>
-
                             </div><!-- End sidebar recent posts-->
-
-                            <h3 class="sidebar-title">Tags</h3>
-                            <div class="sidebar-item tags">
-                                <ul>
-                                    <li><a href="#">App</a></li>
-                                    <li><a href="#">IT</a></li>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Mac</a></li>
-                                    <li><a href="#">Design</a></li>
-                                    <li><a href="#">Office</a></li>
-                                    <li><a href="#">Creative</a></li>
-                                    <li><a href="#">Studio</a></li>
-                                    <li><a href="#">Smart</a></li>
-                                    <li><a href="#">Tips</a></li>
-                                    <li><a href="#">Marketing</a></li>
-                                </ul>
-                            </div><!-- End sidebar tags-->
-
                         </div><!-- End sidebar -->
+                        @endforeach
 
                     </div><!-- End blog sidebar -->
 
@@ -345,35 +155,18 @@
 
     </main><!-- End #main -->
 
-    <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
-
-        <div class="footer-newsletter">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 text-center">
-                        <h4>Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-5 col-md-12 footer-info">
                         <a href="index.html" class="logo d-flex align-items-center">
-                            <img src="assets/img/logo.png" alt="">
-                            <span>FlexStart</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kabupaten_Boyolali.png/529px-Kabupaten_Boyolali.png"
+                                alt="">
+                            <span>SIPRONA</span>
                         </a>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
-                            valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                        <p>Aplikasi pembantu dan bentuk transparansi panitia kepada
+                            pemohon PTSL Desa Keposong Tahun 2021.</p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -381,48 +174,13 @@
                             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
-
-                    <div class="col-lg-2 col-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                        <h4>Contact Us</h4>
-                        <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
-                        </p>
-
-                    </div>
-
                 </div>
             </div>
         </div>
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Panitia PTSL Desa Keposong</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->

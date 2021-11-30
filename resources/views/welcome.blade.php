@@ -58,7 +58,7 @@
                     <li><a class="nav-link scrollto" href="#about">Apa itu PTSL?</a></li>
                     <li><a class="nav-link scrollto" href="#services">Alur PTSL</a></li>
                     <li><a class="nav-link scrollto" href="#team">Panitia</a></li>
-                    <li><a href="{{ url('/dashboard/pengumuman') }}">Pengumuman</a></li>
+                    <li><a href="{{ url('/pengumuman') }}">Pengumuman</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
                     <li><a class="getstarted scrollto" href="{{ url('/login') }}">Login Panitia</a>
                     </li>
