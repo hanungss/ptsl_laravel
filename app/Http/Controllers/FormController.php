@@ -8,6 +8,7 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Validator;
+use App\Models\Gambar;
 use Illuminate\Support\Facades\DB;
 
 class FormController extends Controller
@@ -80,6 +81,29 @@ class FormController extends Controller
             'alamat' => $req->alamat
         ]);
         return redirect('/lihatdata');
+    }
+
+    function validasi_upload(Request $req)
+    {
+        Validator::make($req->all(), [
+            "file" => ['required', 'file', 'max:2048'],
+            'judul' => ['required', 'string', 'max:255'],
+            'isi' => ['required', 'string']
+        ])->validate();
+
+        $file = $req->file('file');
+		$nama_file = time()."_".$file->getClientOriginalName();
+        // $req->image->move(public_path('data_file'), $nama_file);
+        $tujuan_upload = 'data_file';
+		$file->move($tujuan_upload,$nama_file);
+        
+        //Jika Validasi Berhasil Maka akan menampilkan data dengan menjalankan fungsi dd dibawah
+        Gambar::create([
+			'file' => $nama_file,
+			'judul' => $req->judul,
+            'isi' => $req->isi,
+		]);
+        return redirect('/pengumuman');
     }
 
 }

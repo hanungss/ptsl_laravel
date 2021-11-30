@@ -23,12 +23,12 @@
                         </div>
                         @endif
 
-                        <form action="/proses_upload" method="HEAD" enctype="multipart/form-data">
-                            {{ csrf_field() }}
-
+                        <form action="{{ route('form.upload') }}" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            @method("POST")
                             <div class="form-group">
                                 <b>File Gambar</b><br />
-                                <input type="file" name="file">
+                                <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png">
                             </div>
 
                             <div class="form-group">

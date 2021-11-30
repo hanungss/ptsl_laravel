@@ -48,6 +48,8 @@ Route::get('/upload', 'App\Http\Controllers\FormController@upload');
 
 Route::get('/proses_upload', 'App\Http\Controllers\Controller@proses_upload');
 
+Route::post('/validasi_upload','App\Http\Controllers\FormController@validasi_upload')->name('form.upload');
+
 Route::post('/validasi_form','App\Http\Controllers\FormController@validasi_form')->name('form.validation');
 
 Route::post('/validasi_cari','App\Http\Controllers\Controller@validasi_cari')->name('form.cari');
