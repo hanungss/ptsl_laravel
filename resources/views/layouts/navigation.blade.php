@@ -28,6 +28,11 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('pengumuman_admin')" :active="request()->routeIs('pengumuman_admin')">
+                        {{ __('Lihat Pemberitahuan') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('pengumuman')" :active="request()->routeIs('pengumuman')">
                         {{ __('Buat Pemberitahuan') }}
                     </x-nav-link>

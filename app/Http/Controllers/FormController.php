@@ -37,11 +37,29 @@ class FormController extends Controller
         $ptsl = DB::table('ptsl')->where('no_reg', $no_reg)->get();
         return view('editdata', ['ptsl' => $ptsl]);
     }
+    
+    // public function editpengumuman($id)
+    // {
+    //     $gambar = DB::table('gambar')->where('id', $id)->get();
+    //     return view('editpengumuman', ['id' => $id]);
+    // }
 
     public function detail($no_reg)
     {
         $ptsl = DB::table('ptsl')->where('no_reg', $no_reg)->get();
         return view('detail', ['ptsl' => $ptsl]);
+    }
+    
+      public function pengumuman_admin()
+    {
+        $gambar = DB::table('gambar')->get();
+        return view('pengumuman_admin',['gambar' => $gambar]);
+    }
+    
+     public function hapuspengumuman($id)
+    {
+        DB::table('gambar')->where('id', $id)->delete();
+        return redirect('/pengumuman_admin');
     }
 
     public function cetak($no_reg)
@@ -82,7 +100,7 @@ class FormController extends Controller
         ]);
         return redirect('/lihatdata');
     }
-
+    
     function validasi_upload(Request $req)
     {
         Validator::make($req->all(), [
@@ -104,6 +122,34 @@ class FormController extends Controller
             'isi' => $req->isi,
 		]);
         return redirect('/pengumuman');
+    }
+    
+    public function update_pengumuman(Request $request)
+    {
+        Validator::make($request->all(), [
+            "file" => ['required', 'file', 'max:2048'],
+            'judul' => ['required', 'string', 'max:255'],
+            'isi' => ['required', 'string']
+        ])->validate();
+
+        $file = $request->file('file');
+		$nama_file = time()."_".$file->getClientOriginalName();
+        // $req->image->move(public_path('data_file'), $nama_file);
+        $tujuan_upload = 'data_file';
+		$file->move($tujuan_upload,$nama_file);
+
+       Gambar::where('id', $request->id)->update([
+			'file' => $nama_file,
+			'judul' => $request->judul,
+            'isi' => $request->isi,
+		]);
+        return redirect('/pengumuman_admin');
+    }
+    
+     public function editpengumuman($id)
+    {
+        $gambar = DB::table('gambar')->where('id', $id)->get();
+        return view('editpengumuman', ['gambar' => $gambar]);
     }
 
 }

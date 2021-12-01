@@ -26,7 +26,7 @@ Route::get('/dashboard', function () {
 
 Route::get('/lihatdata','App\Http\Controllers\Controller@lihatdata')->middleware(['auth'])->name('lihatdata');;
 
-Route::get('/lihatpengumuman','App\Http\Controllers\Controller@pengumuman');
+Route::get('/pengumuman_admin','App\Http\Controllers\Controller@pengumuman_admin')->middleware(['auth'])->name('pengumuman_admin');;
 
 Route::get('/tambahdata', function () {
     return view('tambahdata');
@@ -44,15 +44,17 @@ Route::get('/pengumuman', function () {
     return view('pengumuman');
 })->middleware(['auth'])->name('pengumuman');
 
-Route::get('/upload', 'App\Http\Controllers\FormController@upload');
+Route::get('/pengumuman_admin','App\Http\Controllers\Controller@pengumuman_admin')->middleware(['auth'])->name('pengumuman_admin');;
 
 Route::get('/proses_upload', 'App\Http\Controllers\Controller@proses_upload');
 
-Route::post('/validasi_upload','App\Http\Controllers\FormController@validasi_upload')->name('form.upload');
+Route::get('/lihatpengumuman','App\Http\Controllers\Controller@pengumuman');
 
 Route::post('/validasi_form','App\Http\Controllers\FormController@validasi_form')->name('form.validation');
 
 Route::post('/validasi_cari','App\Http\Controllers\Controller@validasi_cari')->name('form.cari');
+
+Route::get('/hapuspengumuman/{id}', 'App\Http\Controllers\FormController@hapuspengumuman');
 
 Route::get('/editdata/{no_reg}', 'App\Http\Controllers\FormController@editdata')->middleware(['auth'])->name('editdata');
 
@@ -65,5 +67,11 @@ Route::get('/hapus/{no_reg}', 'App\Http\Controllers\FormController@hapus');
 Route::get('/cetak/{no_reg}', 'App\Http\Controllers\FormController@cetak')->middleware(['auth'])->name('cetak');
 
 Route::get('/pencarian', 'App\Http\Controllers\Controller@validasi_cari')->name('form.cari');
+
+Route::post('/validasi_upload','App\Http\Controllers\FormController@validasi_upload')->name('form.upload');
+
+Route::post('/update_pengumuman','App\Http\Controllers\FormController@update_pengumuman')->name('form.updatepengumuman');
+
+Route::get('/editpengumuman/{id}', 'App\Http\Controllers\FormController@editpengumuman');
 
 require __DIR__.'/auth.php';

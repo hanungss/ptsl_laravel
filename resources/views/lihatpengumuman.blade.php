@@ -53,13 +53,13 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Dashboard</a></li>
+                    <li><a class="nav-link scrollto active" href="{{ url('../#hero') }}">Dashboard</a></li>
                     <!-- //<a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a> -->
-                    <li><a class="nav-link scrollto" href="#about">Apa itu PTSL?</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Alur PTSL</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Panitia</a></li>
-                    <li><a href="{{ url('../pengumuman') }}">Pengumuman</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../#about') }}">Apa itu PTSL?</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../#services') }}">Alur PTSL</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../#team') }}">Panitia</a></li>
+                    <li><a href="{{ url('../lihatpengumuman') }}">Pengumuman</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../#contact') }}">Kontak</a></li>
                     <li><a class="getstarted scrollto" href="{{ url('/login') }}">Login Panitia</a>
                     </li>
                 </ul>
@@ -91,29 +91,28 @@
                 <div class="row">
 
                     <div class="col-lg-8 entries">
-                        @foreach($pengumuman as $p)
+                        @foreach($gambar as $g)
                         <article class="entry">
                             <div class="entry-img">
-                                <img src="assets/img/blog/{{$p->foto}}" alt="" class="img-fluid">
+                                <img src="/data_file/{{$g->file}}" alt="" class="img-fluid">
                             </div>
                             <h2 class="entry-title">
-                                <a href="blog-single.html">{{$p->judul}}</a>
+                                <a href="#">{{$g->judul}}</a>
                             </h2>
                             <div class="entry-meta">
                                 <ul>
                                     <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
                                             href="blog-single.html">Admin</a></li>
-                                    <!-- <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                            href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a>
+                                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
+                                            href="blog-single.html"><time
+                                                datetime="{{$g->created_at}}">{{$g->created_at}}</time></a>
                                     </li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="blog-single.html">12 Comments</a></li> -->
                                 </ul>
                             </div>
 
                             <div class="entry-content">
                                 <p>
-                                    {{$p->isi}}
+                                    {{$g->isi}}
                                 </p>
                                 <div class="read-more">
                                     <a href="#">Read More</a>
@@ -138,9 +137,9 @@
                             <h3 class="sidebar-title">Recent Posts</h3>
                             <div class="sidebar-item recent-posts">
                                 <div class="post-item clearfix">
-                                    <img src="assets/img/blog/{{$p->foto}}" alt="">
-                                    <h4><a href="#">{{$p->judul}}</a></h4>
-                                    <time datetime="2021-11-30">Jan 1, 2020</time>
+                                    <img src="data_file/{{$g->file}}" alt="">
+                                    <h4><a href="#">{{$g->judul}}</a></h4>
+                                    <time datetime="{{$g->created_at}}">{{$g->created_at}}</time>
                                 </div>
                             </div><!-- End sidebar recent posts-->
                         </div><!-- End sidebar -->
