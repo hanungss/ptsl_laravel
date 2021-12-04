@@ -1,0 +1,3228 @@
+.mediaViewInfo {
+	--web-view-name: Artboard – 1;
+	--web-view-id: Artboard__1;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: Times New Roman;
+}
+:root {
+	--web-view-ids: Artboard__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Artboard__1 {
+	position: absolute;
+	width: 813px;
+	height: 12246px;
+	font-family: Times New Roman;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Artboard – 1;
+	--web-view-id: Artboard__1;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: Times New Roman;
+}
+#halaman1 {
+	position: absolute;
+	width: 659px;
+	height: 1098px;
+	left: 72px;
+	top: 51px;
+	overflow: visible;
+}
+#KEMENTRIAN_AGRARIA_DAN_TATA_RU {
+	left: 150px;
+	top: 15px;
+	position: absolute;
+	overflow: hidden;
+	width: 361px;
+	height: 53px;
+	text-align: center;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Jl_Perintis_Kemerdekaan_No_252 {
+	left: 177px;
+	top: 70px;
+	position: absolute;
+	overflow: visible;
+	width: 329px;
+	height: 14px;
+	text-align: center;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(112,112,112,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 657px;
+	height: 4px;
+	left: 1.5px;
+	top: 97.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Logo_BPN-KemenATR_2017 {
+	position: absolute;
+	width: 89px;
+	height: 88px;
+	left: 2px;
+	top: 0px;
+	overflow: visible;
+}
+#PTSL_2021 {
+	left: 293px;
+	top: 111px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	height: 17px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 658px;
+	height: 223px;
+	left: 1px;
+	top: 357px;
+}
+#DATA_TANAH {
+	left: 280px;
+	top: 373px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Alas_Hak______________________ {
+	left: 16px;
+	top: 399px;
+	position: absolute;
+	overflow: visible;
+	width: 629px;
+	height: 156px;
+	line-height: 25px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectangle_18 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_18 {
+	position: absolute;
+	overflow: visible;
+	width: 659px;
+	height: 520px;
+	left: 0px;
+	top: 578px;
+}
+#n_01-01 {
+	position: absolute;
+	width: 651px;
+	height: 517.49px;
+	left: 4px;
+	top: 577.706px;
+	overflow: visible;
+}
+#Rectangle_5 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 658px;
+	height: 194px;
+	left: 1px;
+	top: 168px;
+}
+#Nama__________________________ {
+	left: 20px;
+	top: 209px;
+	position: absolute;
+	overflow: visible;
+	width: 620px;
+	height: 168px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#DATA_PEMOHON {
+	left: 268px;
+	top: 180px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#No_Berkas_ {
+	left: 290px;
+	top: 142px;
+	position: absolute;
+	overflow: visible;
+	width: 82px;
+	height: 17px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#halaman2 {
+	position: absolute;
+	width: 648px;
+	height: 1016px;
+	left: 83px;
+	top: 1332px;
+	overflow: visible;
+}
+#FORMULIR_PENDAFTARAN {
+	left: 220px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 214px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#Yang_bertanda_tangan_di_bawah_ {
+	left: 0px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 649px;
+	height: 941px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(9,9,9,1);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 456.002px;
+	height: 2px;
+	left: 169.5px;
+	top: 209.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 449.148px;
+	height: 67.989px;
+	left: 176.5px;
+	top: 210.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 449px;
+	height: 1px;
+	left: 176.5px;
+	top: 277.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Image_1 {
+	position: absolute;
+	width: 28px;
+	height: 161px;
+	left: 561px;
+	top: 440px;
+	overflow: visible;
+}
+#halaman3 {
+	position: absolute;
+	width: 580px;
+	height: 946px;
+	left: 117px;
+	top: 2509px;
+	overflow: visible;
+}
+#PEMERINTAH_KABUPATEN_BOYOLALI_ {
+	left: 131px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 303px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(4,4,4,1);
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 579px;
+	height: 3px;
+	left: 0.5px;
+	top: 65.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SURAT_KETERANGAN_TANAH_NOMOR__ {
+	left: 181px;
+	top: 81px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(4,4,4,1);
+	text-decoration: underline;
+}
+#n_Yang_bertanda_tangan_di_bawa {
+	left: 0px;
+	top: 144px;
+	position: absolute;
+	overflow: hidden;
+	width: 581px;
+	height: 585px;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(4,4,4,1);
+}
+#Boyolali_p-pengajuan_Kepala_De {
+	left: 384px;
+	top: 803px;
+	position: absolute;
+	overflow: visible;
+	width: 191px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(4,4,4,1);
+}
+#halaman4 {
+	position: absolute;
+	width: 580px;
+	height: 1155px;
+	left: 117px;
+	top: 3720px;
+	overflow: visible;
+}
+#Saya_yang_bertanda_tangan_di_b_bd {
+	left: 0px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 581px;
+	height: 1017px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(19,18,18,1);
+}
+#SURAT_PERNYATAAN {
+	left: 211px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 166px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#Surat_Pernyataan_Berdasarkan_S {
+	left: 0px;
+	top: 1092px;
+	position: absolute;
+	overflow: visible;
+	width: 304px;
+	white-space: nowrap;
+	line-height: 17px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(9,8,8,1);
+}
+#n_Hal_1- {
+	left: 517px;
+	top: 1110px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	line-height: 18px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(7,7,7,1);
+}
+#Saya_yang_bertanda_tangan_di_b_bd {
+	left: 0px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 581px;
+	height: 1017px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(19,18,18,1);
+}
+#halaman5 {
+	position: absolute;
+	width: 625px;
+	height: 977px;
+	left: 98px;
+	top: 5039px;
+	overflow: visible;
+}
+#Demikian_Surat_Pernyataan_ini_ {
+	left: 19px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#n__Nama__p-nama_saksi1_____NIK {
+	left: 19px;
+	top: 41px;
+	position: absolute;
+	overflow: hidden;
+	width: 304px;
+	height: 173px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#n__Nama__p-nama_saksi2_____NIK {
+	left: 322px;
+	top: 41px;
+	position: absolute;
+	overflow: hidden;
+	width: 304px;
+	height: 173px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#Dibuat_di__p-desa_Pada_tanggal {
+	left: 19px;
+	top: 238px;
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 71px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#Saksi_-_saksi {
+	left: 19px;
+	top: 299px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#n__p-nama_saksi1______________ {
+	left: 19px;
+	top: 331px;
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#Yang_Membuat_Pernyataan_ {
+	left: 416px;
+	top: 308px;
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#p-nama {
+	left: 457px;
+	top: 404px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(9,9,9,1);
+}
+#Surat_Pernyataan_Berdasarkan_S_bn {
+	left: 0px;
+	top: 914px;
+	position: absolute;
+	overflow: visible;
+	width: 304px;
+	white-space: nowrap;
+	line-height: 17px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(9,8,8,1);
+}
+#n_Hal_1-_bo {
+	left: 523px;
+	top: 939px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	line-height: 18px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(7,7,7,1);
+}
+#halaman6 {
+	position: absolute;
+	width: 665px;
+	height: 1155.5px;
+	left: 100px;
+	top: 6193px;
+	overflow: visible;
+}
+#RISALAH_PENELITIAN_DATA_YURIDI {
+	left: 167px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 281px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(19,18,18,1);
+}
+#Rectangle_6 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 614px;
+	height: 37px;
+	left: 0px;
+	top: 97px;
+}
+#IDENTIFIKASI_TANAH_YANG_BERKEP {
+	left: 57px;
+	top: 110px;
+	position: absolute;
+	overflow: visible;
+	width: 270px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Rectangle_7 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 614px;
+	height: 79px;
+	left: 0px;
+	top: 134px;
+}
+#BIDANG_TANAH_LETAK_TANAH_Ds_p- {
+	left: 57px;
+	top: 141px;
+	position: absolute;
+	overflow: visible;
+	width: 284px;
+	height: 67px;
+	line-height: 25px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_6 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_6 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 116px;
+	left: 44.5px;
+	top: 97.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_7 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_7 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 161.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_8 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 614px;
+	height: 279px;
+	left: 0px;
+	top: 213px;
+}
+#YANG_BERKEPENTINGAN {
+	left: 57px;
+	top: 226px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_8 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_8 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 224px;
+	left: 44.5px;
+	top: 213.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_9 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_9 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 245.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Nama_________p-nama_NIK_______ {
+	left: 57px;
+	top: 260px;
+	position: absolute;
+	overflow: visible;
+	width: 303px;
+	height: 112px;
+	line-height: 25px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_10 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_10 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 377.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Perorangan__Badan_Hukum_Tgl_La {
+	left: 434px;
+	top: 260px;
+	position: absolute;
+	overflow: visible;
+	width: 232px;
+	height: 92px;
+	line-height: 25px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_11 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_11 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 132px;
+	left: 423.5px;
+	top: 245.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Badan_Hukum___Badan_Hukum__Pem {
+	left: 57px;
+	top: 383px;
+	position: absolute;
+	overflow: visible;
+	width: 506px;
+	height: 71px;
+	line-height: 19px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(19,18,18,1);
+}
+#Line_12 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_12 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 437.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Perhatian__Bila_yang_berkepent {
+	left: 57px;
+	top: 443px;
+	position: absolute;
+	overflow: visible;
+	width: 544px;
+	height: 64px;
+	line-height: 25px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_13 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_13 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 55px;
+	left: 44.5px;
+	top: 437.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_14 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_14 {
+	overflow: visible;
+	position: absolute;
+	width: 570.105px;
+	height: 60.994px;
+	left: 44.5px;
+	top: 377.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_9 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_9 {
+	position: absolute;
+	overflow: visible;
+	width: 614px;
+	height: 53px;
+	left: 0px;
+	top: 491px;
+}
+#DATA_TENTANG_PEMILIKAN_DAN_PEN {
+	left: 57px;
+	top: 499px;
+	position: absolute;
+	overflow: visible;
+	width: 376px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#KEPEMILIKAN__PENGUASAAN_TANAH {
+	left: 57px;
+	top: 524px;
+	position: absolute;
+	overflow: visible;
+	width: 217px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_15 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_15 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 52px;
+	left: 44.5px;
+	top: 492.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_16 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_16 {
+	overflow: visible;
+	position: absolute;
+	width: 614px;
+	height: 1px;
+	left: 0.5px;
+	top: 517.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_10 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 614px;
+	height: 612px;
+	left: 0px;
+	top: 543px;
+}
+#Line_17 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_17 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 611px;
+	left: 44.5px;
+	top: 544.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_18 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_18 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 571.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_19 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_19 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 584px;
+	left: 79.5px;
+	top: 571.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bukti_-_Bukti_Kepemilikan__Pen {
+	left: 57px;
+	top: 549px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Sertipikat___Atas_Nama___ {
+	left: 90px;
+	top: 579px;
+	position: absolute;
+	overflow: hidden;
+	width: 104px;
+	height: 37px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_20 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_20 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 616.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Warisan_Nama_Pewaris___Meningg {
+	left: 90px;
+	top: 626px;
+	position: absolute;
+	overflow: hidden;
+	width: 511px;
+	height: 101px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_21 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_21 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 727.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_22 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_22 {
+	overflow: visible;
+	position: absolute;
+	width: 570.264px;
+	height: 156.965px;
+	left: 44.5px;
+	top: 571.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Hibah__Pemberian_Dilakukan_den {
+	left: 90px;
+	top: 734px;
+	position: absolute;
+	overflow: hidden;
+	width: 511px;
+	height: 81px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_23 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_23 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 815.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pembelian_Dilakukan_dengan____ {
+	left: 90px;
+	top: 823px;
+	position: absolute;
+	overflow: hidden;
+	width: 511px;
+	height: 79px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_24 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_24 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 902.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pelelangan_Risalah_Lelang_____ {
+	left: 90px;
+	top: 911px;
+	position: absolute;
+	overflow: hidden;
+	width: 511px;
+	height: 59px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_25 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_25 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 970.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Putusan_Pemberian_Hak_Jabatan_ {
+	left: 90px;
+	top: 976px;
+	position: absolute;
+	overflow: visible;
+	width: 511px;
+	height: 94px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Perwakafan_Akta_Pengganti_Ikra {
+	left: 90px;
+	top: 1062px;
+	position: absolute;
+	overflow: visible;
+	width: 511px;
+	height: 93px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_26 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_26 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 44.5px;
+	top: 1055.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_27 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_27 {
+	overflow: visible;
+	position: absolute;
+	width: 570.512px;
+	height: 340.858px;
+	left: 44.5px;
+	top: 815.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#a {
+	left: 61px;
+	top: 581px;
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#b {
+	left: 61px;
+	top: 624px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#c {
+	left: 59px;
+	top: 737px;
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#d {
+	left: 61px;
+	top: 826px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#e {
+	left: 61px;
+	top: 913px;
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#f {
+	left: 61px;
+	top: 975px;
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#g {
+	left: 61px;
+	top: 1059px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#n_ {
+	left: 20px;
+	top: 549px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#A_c {
+	left: 20px;
+	top: 524px;
+	position: absolute;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#II {
+	left: 20px;
+	top: 499px;
+	position: absolute;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#n__c {
+	left: 20px;
+	top: 141px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#n__da {
+	left: 20px;
+	top: 226px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#I {
+	left: 22px;
+	top: 109px;
+	position: absolute;
+	overflow: visible;
+	width: 5px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#halaman7 {
+	position: absolute;
+	width: 643px;
+	height: 1061px;
+	left: 99px;
+	top: 7492px;
+	overflow: visible;
+}
+#Rectangle_11 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 615px;
+	height: 156px;
+	left: 1px;
+	top: 0px;
+}
+#Lain__lain_Sebutkan__1_SKT_No_ {
+	left: 91px;
+	top: 13px;
+	position: absolute;
+	overflow: hidden;
+	width: 511px;
+	height: 134px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_28 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_28 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 156px;
+	left: 35.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_29 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_29 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 156px;
+	left: 66.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_12 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 615px;
+	height: 233px;
+	left: 1px;
+	top: 155px;
+}
+#Line_30 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_30 {
+	overflow: visible;
+	position: absolute;
+	width: 581px;
+	height: 1px;
+	left: 35.5px;
+	top: 182.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bukti_Perpajakan {
+	left: 132px;
+	top: 163px;
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Uraian {
+	left: 447px;
+	top: 163px;
+	position: absolute;
+	overflow: visible;
+	width: 34px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_31 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_31 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 232px;
+	left: 35.5px;
+	top: 156.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_32 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_32 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 233px;
+	left: 330.5px;
+	top: 155.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Ellipse_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	height: 25px;
+	left: 52px;
+	top: 286px;
+}
+#a_Patok_D__Letter_C_Girik_Keti {
+	left: 63px;
+	top: 194px;
+	position: absolute;
+	overflow: hidden;
+	width: 260px;
+	height: 171px;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_33 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_33 {
+	overflow: visible;
+	position: absolute;
+	width: 580px;
+	height: 1px;
+	left: 35.5px;
+	top: 236.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_34 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_34 {
+	overflow: visible;
+	position: absolute;
+	width: 580px;
+	height: 1px;
+	left: 35.5px;
+	top: 283.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Kantor_yang_menerbitkan__Tahun {
+	left: 346px;
+	top: 194px;
+	position: absolute;
+	overflow: hidden;
+	width: 256px;
+	height: 185px;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_35 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_35 {
+	overflow: visible;
+	position: absolute;
+	width: 580px;
+	height: 1px;
+	left: 35.5px;
+	top: 332.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_13 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 615px;
+	height: 141px;
+	left: 1px;
+	top: 387px;
+}
+#Kenyataan_Penguasaan_dan_Pengg {
+	left: 55px;
+	top: 401px;
+	position: absolute;
+	overflow: visible;
+	width: 226px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#a_Pada_tahun_1960_dikuasai_ole {
+	left: 55px;
+	top: 427px;
+	position: absolute;
+	overflow: visible;
+	width: 589px;
+	height: 110px;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_36 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_36 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 140px;
+	left: 35.5px;
+	top: 388.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_37 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_37 {
+	overflow: visible;
+	position: absolute;
+	width: 580px;
+	height: 1px;
+	left: 35.5px;
+	top: 420.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n__dy {
+	left: 17px;
+	top: 163px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#n__dz {
+	left: 20px;
+	top: 401px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Rectangle_14 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 615px;
+	height: 105px;
+	left: 1px;
+	top: 528px;
+}
+#a_Jenisnya__Rumah_Hunian______ {
+	left: 55px;
+	top: 563px;
+	position: absolute;
+	overflow: hidden;
+	width: 547px;
+	height: 70px;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Bangunan_di_Atas_Tanah {
+	left: 56px;
+	top: 539px;
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_38 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_38 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 105px;
+	left: 35.5px;
+	top: 528.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_39 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_39 {
+	overflow: visible;
+	position: absolute;
+	width: 580px;
+	height: 1px;
+	left: 35.5px;
+	top: 557.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n__d {
+	left: 23px;
+	top: 539px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Image_2 {
+	position: absolute;
+	width: 619px;
+	height: 430px;
+	left: 0px;
+	top: 631px;
+	overflow: visible;
+}
+#halaman8 {
+	position: absolute;
+	width: 626px;
+	height: 918px;
+	left: 96px;
+	top: 8787px;
+	overflow: visible;
+}
+#Rectangle_15 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 619px;
+	height: 206px;
+	left: 3px;
+	top: 0px;
+}
+#Perkara__Sengketa_Atas_Tanah_a {
+	left: 51px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_40 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_40 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 226px;
+	left: 37.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_41 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_41 {
+	overflow: visible;
+	position: absolute;
+	width: 619px;
+	height: 1px;
+	left: 3.5px;
+	top: 75.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_42 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_42 {
+	overflow: visible;
+	position: absolute;
+	width: 583px;
+	height: 1px;
+	left: 39.5px;
+	top: 27.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Yang_Mengumpulkan_Data {
+	left: 92px;
+	top: 83px;
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Yang_Berkepentingan__Kuasanya {
+	left: 393px;
+	top: 83px;
+	position: absolute;
+	overflow: visible;
+	width: 161px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_43 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_43 {
+	overflow: visible;
+	position: absolute;
+	width: 585px;
+	height: 1px;
+	left: 37.5px;
+	top: 105.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_44 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_44 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 131px;
+	left: 310.5px;
+	top: 75.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n__p-satgas__2_p-puldadis {
+	left: 51px;
+	top: 126px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 62px;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#n__ {
+	left: 194px;
+	top: 127px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#p-nama_ej {
+	left: 437px;
+	top: 181px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Rectangle_16 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16 {
+	position: absolute;
+	overflow: visible;
+	width: 619px;
+	height: 95px;
+	left: 3px;
+	top: 205px;
+}
+#KESIMPULAN_PANITIA_AJUDIKASI_P {
+	left: 51px;
+	top: 216px;
+	position: absolute;
+	overflow: visible;
+	width: 536px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Pemiliknya__yang_menguasai_tan {
+	left: 51px;
+	top: 278px;
+	position: absolute;
+	overflow: visible;
+	width: 287px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_45 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_45 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 94px;
+	left: 37.5px;
+	top: 206.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_46 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_46 {
+	overflow: visible;
+	position: absolute;
+	width: 585px;
+	height: 1px;
+	left: 37.5px;
+	top: 252.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_47 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_47 {
+	overflow: visible;
+	position: absolute;
+	width: 585px;
+	height: 1px;
+	left: 37.5px;
+	top: 275.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Image_3 {
+	position: absolute;
+	width: 626px;
+	height: 621px;
+	left: 0px;
+	top: 297px;
+	overflow: visible;
+}
+#halaman9 {
+	position: absolute;
+	width: 626.5px;
+	height: 781px;
+	left: 96px;
+	top: 9927px;
+	overflow: visible;
+}
+#Rectangle_17 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 626px;
+	height: 547px;
+	left: 0px;
+	top: 0px;
+}
+#SANGGAHAN__KEBERATAN {
+	left: 50px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Uraian_singkat_perkara__sengke {
+	left: 50px;
+	top: 39px;
+	position: absolute;
+	overflow: hidden;
+	width: 556px;
+	height: 194px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_48 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_48 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 547px;
+	left: 35.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_49 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_49 {
+	overflow: visible;
+	position: absolute;
+	width: 626px;
+	height: 1px;
+	left: 0.5px;
+	top: 30.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_50 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_50 {
+	overflow: visible;
+	position: absolute;
+	width: 626px;
+	height: 1px;
+	left: 0.5px;
+	top: 239.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#IV {
+	left: 11px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 14px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#n__ez {
+	left: 15px;
+	top: 41px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Penyelesaian_Perkara__Sengketa {
+	left: 50px;
+	top: 246px;
+	position: absolute;
+	overflow: visible;
+	width: 228px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+	text-decoration: line-through line-through;
+}
+#n__e {
+	left: 12px;
+	top: 246px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_51 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_51 {
+	overflow: visible;
+	position: absolute;
+	width: 626px;
+	height: 1px;
+	left: 0.5px;
+	top: 266.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#KESIMPULAN_AKHIR_KETUA_PANITIA {
+	left: 50px;
+	top: 272px;
+	position: absolute;
+	overflow: hidden;
+	width: 556px;
+	height: 37px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_52 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_52 {
+	overflow: visible;
+	position: absolute;
+	width: 626px;
+	height: 1px;
+	left: 0.5px;
+	top: 309.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Nama_Pemilik__Yang_Berkepentin {
+	left: 50px;
+	top: 315px;
+	position: absolute;
+	overflow: visible;
+	width: 264px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_53 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_53 {
+	overflow: visible;
+	position: absolute;
+	width: 626px;
+	height: 1px;
+	left: 0.5px;
+	top: 339.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Status_Tanah__Tanah_Milik__Tan {
+	left: 50px;
+	top: 348px;
+	position: absolute;
+	overflow: visible;
+	width: 206px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_54 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_54 {
+	overflow: visible;
+	position: absolute;
+	width: 626px;
+	height: 1px;
+	left: 0.5px;
+	top: 371.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pertimbangan_dalam_hal_status_ {
+	left: 50px;
+	top: 381px;
+	position: absolute;
+	overflow: hidden;
+	width: 563px;
+	height: 160px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#V {
+	left: 13px;
+	top: 284px;
+	position: absolute;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#n__fb {
+	left: 14px;
+	top: 315px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#n__fc {
+	left: 15px;
+	top: 348px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#n__fd {
+	left: 15px;
+	top: 381px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Line_55 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_55 {
+	overflow: visible;
+	position: absolute;
+	width: 591px;
+	height: 1px;
+	left: 35.5px;
+	top: 467.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_56 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_56 {
+	overflow: visible;
+	position: absolute;
+	width: 591.104px;
+	height: 62.994px;
+	left: 35.5px;
+	top: 467.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_57 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_57 {
+	overflow: visible;
+	position: absolute;
+	width: 591px;
+	height: 1px;
+	left: 35.5px;
+	top: 529.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Catatan__Coret_seluruh_kata__k {
+	left: 1px;
+	top: 767px;
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(1,1,1,1);
+}
+#Image_4 {
+	position: absolute;
+	width: 217px;
+	height: 148px;
+	left: 395px;
+	top: 583px;
+	overflow: visible;
+}
+#Halaman10 {
+	position: absolute;
+	width: 627.5px;
+	height: 1059px;
+	left: 93px;
+	top: 11144px;
+	overflow: visible;
+}
+#Rectangle_19 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_19 {
+	position: absolute;
+	overflow: visible;
+	width: 627px;
+	height: 781px;
+	left: 0px;
+	top: 0px;
+}
+#KEPUTUSAN_KETUA_PANITIA_AJUDIK {
+	left: 48px;
+	top: 7px;
+	position: absolute;
+	overflow: hidden;
+	width: 539px;
+	height: 35px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(6,6,6,1);
+}
+#Line_58 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_58 {
+	overflow: visible;
+	position: absolute;
+	width: 627px;
+	height: 1px;
+	left: 0.5px;
+	top: 45.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Mengingat_Instruksi_Presiden_N {
+	left: 19px;
+	top: 60px;
+	position: absolute;
+	overflow: hidden;
+	width: 562px;
+	height: 248px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(6,6,6,1);
+}
+#n__Berdasarkan_data_fisik_dan_ {
+	left: 19px;
+	top: 306px;
+	position: absolute;
+	overflow: hidden;
+	width: 562px;
+	height: 265px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(6,6,6,1);
+}
+#Ellipse_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 566px;
+}
+#Ellipse_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 645px;
+}
+#n_5__Biaya_Perolehan_Tanah_dan {
+	left: 19px;
+	top: 553px;
+	position: absolute;
+	overflow: hidden;
+	width: 562px;
+	height: 214px;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(6,6,6,1);
+}
+#Line_60 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_60 {
+	overflow: visible;
+	position: absolute;
+	width: 627px;
+	height: 1px;
+	left: 0.5px;
+	top: 308.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_61 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_61 {
+	overflow: visible;
+	position: absolute;
+	width: 627.109px;
+	height: 69.994px;
+	left: 0.5px;
+	top: 308.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_62 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_62 {
+	overflow: visible;
+	position: absolute;
+	width: 627px;
+	height: 1px;
+	left: 0.5px;
+	top: 377.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_63 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_63 {
+	overflow: visible;
+	position: absolute;
+	width: 627px;
+	height: 1px;
+	left: 0.5px;
+	top: 470.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_64 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_64 {
+	overflow: visible;
+	position: absolute;
+	width: 627px;
+	height: 1px;
+	left: 0.5px;
+	top: 553.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_65 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_65 {
+	overflow: visible;
+	position: absolute;
+	width: 627.131px;
+	height: 83.992px;
+	left: 0.5px;
+	top: 470.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Catatan___-_Berikan_tanda_ling {
+	left: 0px;
+	top: 985px;
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(6,6,6,1);
+}
+#Image_5 {
+	position: absolute;
+	width: 199px;
+	height: 159px;
+	left: 400px;
+	top: 810px;
+	overflow: visible;
+}
+#VI {
+	left: 13px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 14px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Times New Roman, Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(6,6,6,1);
+}
+#Line_66 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_66 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 45px;
+	left: 36.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}

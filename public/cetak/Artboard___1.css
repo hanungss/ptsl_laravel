@@ -1,0 +1,430 @@
+:root {
+	--web-view-ids: Artboard__1;
+	--web-view-name: Artboard – 1;
+	--web-view-id: Artboard__1;
+	--web-scale-to-fit: false;
+	--web-scale-to-fit-type: default;
+	--web-enable-scale-up: false;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: false;
+	--web-center-vertically: false;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: false;
+	--web-application: true;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+	--web-page-font: Times New Roman;
+}
+#Artboard__1 {
+	display: none;
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: Artboard – 1;
+		--web-view-id: Artboard__1;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+		--web-page-font: Times New Roman;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Artboard__1 {
+		position: absolute;
+		display: block;
+		width: 813px;
+		height: 3656px;
+		font-family: Times New Roman;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Artboard – 1;
+		--web-view-id: Artboard__1;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+		--web-page-font: Times New Roman;
+	}
+	#Group_1 {
+		position: absolute;
+		width: 659px;
+		height: 1098.11px;
+		left: 72px;
+		top: 51px;
+		overflow: visible;
+	}
+	#KEMENTRIAN_AGRARIA_DAN_TATA_RU {
+		left: 150px;
+		top: 15px;
+		position: absolute;
+		overflow: hidden;
+		width: 361px;
+		height: 53px;
+		text-align: center;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Jl_Perintis_Kemerdekaan_No_252 {
+		left: 177px;
+		top: 70px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 14px;
+		text-align: center;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(112,112,112,1);
+	}
+	#Line_1 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_1 {
+		overflow: visible;
+		position: absolute;
+		width: 657px;
+		height: 4px;
+		left: 1.5px;
+		top: 97.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Logo_BPN-KemenATR_2017 {
+		position: absolute;
+		width: 89px;
+		height: 88px;
+		left: 2px;
+		top: 0px;
+		overflow: visible;
+	}
+	#PTSL_2021 {
+		left: 293px;
+		top: 111px;
+		position: absolute;
+		overflow: visible;
+		width: 74px;
+		height: 17px;
+		text-align: left;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Rectangle_3 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 658px;
+		height: 223px;
+		left: 1px;
+		top: 357px;
+	}
+	#DATA_TANAH {
+		left: 280px;
+		top: 373px;
+		position: absolute;
+		overflow: visible;
+		width: 103px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Alas_Hak______________________ {
+		left: 16px;
+		top: 399px;
+		position: absolute;
+		overflow: visible;
+		width: 629px;
+		height: 156px;
+		line-height: 25px;
+		margin-top: -4.5px;
+		text-align: left;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#n_01-01 {
+		position: absolute;
+		width: 659px;
+		height: 523.404px;
+		left: 0px;
+		top: 574.706px;
+		overflow: visible;
+	}
+	#Rectangle_5 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 658px;
+		height: 194px;
+		left: 1px;
+		top: 168px;
+	}
+	#Nama__________________________ {
+		left: 20px;
+		top: 209px;
+		position: absolute;
+		overflow: visible;
+		width: 620px;
+		height: 168px;
+		text-align: left;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#DATA_PEMOHON {
+		left: 268px;
+		top: 180px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#No_Berkas_ {
+		left: 290px;
+		top: 142px;
+		position: absolute;
+		overflow: visible;
+		width: 82px;
+		height: 17px;
+		text-align: left;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Group_2 {
+		position: absolute;
+		width: 648px;
+		height: 1016px;
+		left: 83px;
+		top: 1278px;
+		overflow: visible;
+	}
+	#FORMULIR_PENDAFTARAN {
+		left: 220px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Yang_bertanda_tangan_di_bawah_ {
+		left: 0px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 649px;
+		height: 941px;
+		text-align: left;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#Line_2 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_2 {
+		overflow: visible;
+		position: absolute;
+		width: 456.002px;
+		height: 2px;
+		left: 169.5px;
+		top: 209.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_3 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		width: 449.148px;
+		height: 67.989px;
+		left: 176.5px;
+		top: 210.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_4 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_4 {
+		overflow: visible;
+		position: absolute;
+		width: 449px;
+		height: 1px;
+		left: 176.5px;
+		top: 277.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Image_1 {
+		position: absolute;
+		width: 28px;
+		height: 161px;
+		left: 561px;
+		top: 440px;
+		overflow: visible;
+	}
+	#Group_3 {
+		position: absolute;
+		width: 580px;
+		height: 946px;
+		left: 117px;
+		top: 2413px;
+		overflow: visible;
+	}
+	#PEMERINTAH_KABUPATEN_BOYOLALI_ {
+		left: 131px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 303px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Line_5 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_5 {
+		overflow: visible;
+		position: absolute;
+		width: 579px;
+		height: 3px;
+		left: 0.5px;
+		top: 65.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#SURAT_KETERANGAN_TANAH_NOMOR__ {
+		left: 181px;
+		top: 81px;
+		position: absolute;
+		overflow: visible;
+		width: 203px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+		text-decoration: underline;
+	}
+	#n_Yang_bertanda_tangan_di_bawa {
+		left: 0px;
+		top: 144px;
+		position: absolute;
+		overflow: hidden;
+		width: 581px;
+		height: 585px;
+		line-height: 24px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Boyolali_p-pengajuan_Kepala_De {
+		left: 384px;
+		top: 803px;
+		position: absolute;
+		overflow: visible;
+		width: 191px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Times New Roman, Times New Roman;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+}
